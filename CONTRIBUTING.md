@@ -21,7 +21,7 @@ This adds a new super awesome feature that everyone would love,
 it can be used for such and such.
 
 To deliver this feature we had to extend, this that and the other
-with new behaviours
+with new behaviors
 
 Backwards compatibility is kept
 ```

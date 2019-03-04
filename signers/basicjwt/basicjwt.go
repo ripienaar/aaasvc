@@ -7,6 +7,10 @@
 //
 // "agents" - a slice of strings for which actions to allow, used by the authorizers like actionlist
 //
+// Your token must have an exp set in UTC zone unix format, it cannot be 0 and it cannot be longer than
+// max_validity in the future, this is to avoid token generation bugs that could yield forever valid
+// tokens if one is not careful.
+//
 // The agents claim is not required for basic token handling and authorizers other than actionlist might
 // need other claims, see the docs for the authorizers you wish to use
 package basicjwt
